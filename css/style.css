@@ -1,0 +1,297 @@
+  nav ul li{
+    display: inline-block
+} 
+
+nav{
+    word-spacing: 0.7em;
+}
+
+h1{
+    background-color: yellow;
+    padding-top: 1%;
+    border-radius: 50px;
+    margin: 1% 8% 1% 8%;
+    width: 90%;
+    box-align: center;
+    letter-spacing: 0.1em;
+    font-size: larger;
+}
+
+h1{
+    font-weight: 800 bold;
+    font-size: 90px;
+}
+
+.row2 {
+    display: inline;
+}
+
+:link {
+    text-decoration: none;
+}
+
+.active {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellow;
+    border-radius: 70px; 
+    margin-top: 0%;
+    color: black;
+}
+
+.elementimenu:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 20%;
+}
+
+.pagina {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellow;
+    border-radius: 70px; 
+    margin-top: 0%;
+    color: black;
+}
+
+.elementimenu {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block
+  }
+  
+.dropdown-menu{
+    position: absolute;
+    border: none;
+    color: black;
+  }
+
+.dropdown-item {
+    display: none;
+    min-width: 160px;
+    padding: 2px 4px;
+    z-index: 1;
+    color: black !important
+  }
+
+.dropdown-item {
+    font-size: medium;
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+}
+  
+.dropdown:hover .dropdown-item {
+    display: block;
+    color: black;
+  }
+
+.btn {
+    border: none;
+    color: black;
+}
+
+body{ 
+    font-size: large;
+    text-align: center;
+    font-weight: 400;
+    margin: 0%; 
+    padding: 0%; 
+    background-color:rgb(244, 242, 242);
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn {
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    color: black;
+}
+
+.breadcrumb {
+    font-size: small;
+}
+
+.foto {
+    border-radius: 40px;
+    align-items: center;
+}
+
+#casetta {
+    height: auto;
+    width: 600px;
+}
+
+#renate {
+    height: auto;
+    width: 550px;
+}
+
+#kintergarden {
+    height: 600px;
+    margin: 15px;
+    padding: 5px;
+}
+
+#cortile {
+    height: 600px;
+    margin: 15px;
+    padding: 5px;
+}
+
+#logo {
+    float: left;
+    width: 8%;
+    position: relative;
+
+}
+
+#kintergarden2{
+    height: 362;
+    width: 307px;
+}
+
+#architettura {
+    width: 100%;
+}
+
+.row {
+    display: flex
+}
+
+.row1 {
+    display: flex;
+}
+
+.col-6 {
+    width: max-content;
+}
+
+.colbologna {
+    height: 90%;
+    width: 90%;
+    border-radius: 10%;
+}
+
+#kintergarden2{
+    width: 99%;
+}
+
+.colberlino {
+    height: 90%;
+    width: 92%;
+    border-radius: 10%;
+}
+
+.col-md-6 {
+    height: auto;
+    width: 74%;
+}
+
+.col-md-6menu {
+    height: auto;
+    width: 74%;
+}
+
+.ilmenu {
+    width: 80%;
+}
+
+section {
+    margin: 0% 20% 3% 20%;
+    text-align: left;
+}
+
+.locali {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.locali:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 20%;
+}
+
+.pagina:hover{
+    opacity: 0.5
+}
+
+footer {
+    background-color: black;
+    color: gray; 
+    text-align: center;
+    font-weight: lighter;
+    font-size: 5%;
+}
+
+.caption {
+    font-size: xx-small;
+}
+
+.scrivetemi {
+    font-size: small;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.fa-regular {
+    color: black;
+} 
+
+:hover.fa-brands{
+    opacity: 0.3;
+}
+
+.fa-brands {
+    color: black;
+}
+
+:hover.fa-regular{
+    opacity: 0.3;
+}
+
+.wireframe {
+    width: 90%;
+}
+
+.statistiche{
+    width: 95%;
+}
+
+:hover#logo {
+    opacity: 0.5;
+}
+
+.col-sm-12 {
+    max-width: 750px;
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+      display: list-item ;
+    }
+
+    body {
+        font-size: larger;
+    }
+
+    section {
+        margin: 5%;
+    }
+
+    h1 {
+        max-width: 768px;
+        word-wrap: break-word;
+    }
+  }
